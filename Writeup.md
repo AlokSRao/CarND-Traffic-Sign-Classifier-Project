@@ -19,11 +19,11 @@ The goals / steps of this project are the following:
 [image1]: ./examples/augimage.png "Augmented Images"
 [image2]: ./examples/explore.png "Exploration"
 [image3]: ./examples/graph.png "Accuracy vs Epoch"
-[image4]: ./TestImages/40Limit.jpg "Traffic Sign 1"
-[image5]: ./TestImages/no_enter.jpg "Traffic Sign 2"
-[image6]: ./TestImages/roundabout.jpg "Traffic Sign 3"
-[image7]: ./TestImages/stop.jpg "Traffic Sign 4"
-[image8]: ./TestImages/turn_left.jpg "Traffic Sign 5"
+[image4]: ./TestImages/40Limit.png "Traffic Sign 1"
+[image5]: ./TestImages/no_enter.png "Traffic Sign 2"
+[image6]: ./TestImages/roundabout.png "Traffic Sign 3"
+[image7]: ./TestImages/stop.png "Traffic Sign 4"
+[image8]: ./TestImages/turn_left.png "Traffic Sign 5"
 [image9]: ./examples/softmax.png "Softmax Graph"
 [image9]: ./examples/grayscale.jpg "Grayscale"
 
@@ -33,7 +33,9 @@ The goals / steps of this project are the following:
 ---
 ### Writeup / README
 
-The training data set can be accessed [here](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/traffic-signs-data.zip)
+#### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
+
+You're reading it! and here is a link to my [project code](./Traffic_Sign_Classifier.html)
 
 ### Data Set Summary & Exploration
 
@@ -148,6 +150,5 @@ Here are the results of the prediction:
 
 The model was able to correctly guess 3 of the 5 traffic signs, which gives an accuracy of 60%. This is lesser than test accuracy of 95%, but that is probably because the do not enter sign wasnt part of the database
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
-![alt text][image9]. .
-
-The only image it had lower confidence was the 40 speed limit, which it misclassified. This is probably because while it recognised it as a speed sign, there were multiple speed signs present, and couldnt determine which limit the sign was for.
+![alt text][image9]. 
+The only image it had lower confidence was the 40 speed limmit, which it misclassified. This is probably because while it recognised it as a speed sign, there were multiple speed signs present, and couldnt determine which limit the sign was for.
